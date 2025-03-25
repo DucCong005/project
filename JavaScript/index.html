@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./img/h1.png" alt="">
+    </header>
+    <nav>
+        <div class="box-a">Danh mục sản phẩm</div> 
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">trang chủ</a>
+                    <ul>
+                        <li><a href="dangnhap.html">Đăng nhập</a></li>
+                        <li><a href="dangky.html">Đăng ký</a></li>
+                    </ul>
+                </li>
+                <li><a href="gioithieu.html">giới thiệu</a></li>
+                <li>
+                    <a href="sanpham.html">sản phẩm</a>
+                    <ul>
+                        <li><a href="#">Trà Thái Nguyên</a></li>
+                        <li><a href="#">Trà Ô Long</a></li>
+                        <li><a href="#">Trà Shan Tuyết</a></li>
+                        <li><a href="#">Trà cụ</a></li>
+                        <li><a href="#">Trà mạn</a></li>
+                        <li><a href="#">Trà đen</a></li>
+                    </ul>
+                </li>
+                <li><a href="chinhsachdaily.html">chính sách đại lý</a></li>
+                <li><a href="tuyendung.html">tuyển dụng</a></li>
+                <li><a href="tintuc.html">tin tức</a></li>
+                <li><a href="lienhe.html">liên hệ</a></li>
+                <a href="giohang.html"><span><i class="fa-solid fa-basket-shopping"></i></span></a>
+            </ul>
+        </div>
+    </nav>
+    <article>
+        <img src="./img/h2.jpg" alt="">
+    </article>
+    <aside>
+        <div id="menu2">
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà Thái Nguyên</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà Ô Long</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà Shan Tuyết</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà cụ</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà mạn</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Trà đen</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Ấm chén pha trà</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i>Bán trà</a>
+        </div>
+    </aside>
+    <main>
+        <div class="row">
+            <div class="box3 mg20">
+                <img src="./img/h3.jpg" alt="">
+                <p><span>Thương hiệu lâu đời</span>
+                <br>     
+                TRÀ sản phẩm chính hãng đã kinh doanh từ năm 1962</p>
+            </div>
+            <div class="box3 mg20">
+                <img src="./img/h4.jpg" alt="">
+                <p><span>Đổi trả miễn phí</span>
+                    <br>
+                Chúng tôi hỗ trợ đổi trả miễn phí với hàng lỗi, hàng kém chất lượng</p>
+            </div>
+            <div class="box3">
+                <img src="./img/h5.jpg" alt="">
+                <p><span>Thanh toán linh hoạt</span>
+                    <br>
+                Chúng tôi hỗ trợ thanh toán bằng nhiều hình thức linh hoạt</p>
+            </div>
+        </div>
+        <div class="tieude">
+            <div class="box-tag">
+                SẢN PHẨM BÁN CHẠY
+            </div>
+            <div class="right">
+                <a href="chitietsp.html">xem tất cả..</a>
+            </div>
+        </div>
+        <!-- loadsanpham() -->
+        <div class="row-2" id="loadsp">
+            <!-- <div class="box-5 mg20 bgcolor">
+                <a href="chitietsp.html">
+                    <img src="./img/h6.jpg" alt="">
+                </a>
+                <div class="ten">
+                    <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 500gr</a>
+                </div>
+                <div class="gia">
+                    1.000.000đ
+                </div>
+            </div> 
+            <div class="box-5 mg20 bgcolor">
+                <a href="chitietsp.html"><img src="./img/h7.jpg" alt=""></a>
+                <div class="ten">
+                    <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 300gr</a>
+                </div>
+                <div class="gia">
+                    1.000.000đ
+                </div>
+            </div>
+            <div class="box-5 mg20 bgcolor">
+                <img src="./img/h8.jpg" alt="">
+                <div class="ten">
+                    <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 100gr</a>
+                </div>
+                <div class="gia">
+                    1.000.000đ
+                </div>
+            </div> 
+            <div class="box-5 mg20 bgcolor">
+                <img src="./img/h9.jpg" alt="">
+                <div class="ten">
+                    <a href="chitietsp.html">Bột trà xanh Thái Nguyên</a>
+                </div>
+                <div class="gia">
+                    300.000đ
+                </div> 
+            </div>
+            <div class="box-5 bgcolor">
+                <img src="./img/h10.jpg" alt="">
+                <div class="ten">
+                    <a href="chitietsp.html">Trà Thiết Quan Âm loại 2 - 300gr</a>
+                </div>
+                <div class="gia">
+                    200.000đ
+                </div>
+            </div> -->
+            
+        </div> 
+        <div class="box-anh">
+            <img src="./img/h11.jpg" alt="">
+        </div>
+        <div class="tieude">
+            <div class="box-tag">
+               TRÀ THÁI NGUYÊN
+            </div>
+            <div class="right">
+                <a href="chitietsp.html">xem tất cả..</a>
+            </div>
+        </div>
+        <div id="loadsp2">
+            <!--<div class="row-2">
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h6.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 500gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h7.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 300gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h8.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 100gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h9.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Bột trà xanh Thái Nguyên</a>
+                            </div>
+                            <div class="gia">
+                                300.000đ
+                            </div>
+                        </div>
+
+                        <div class="box-5  bgcolor">
+                            <img src="./img/h10.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Thiết Quan Âm loại 2 - 300gr</a>
+                            </div>
+                            <div class="gia">
+                                200.000đ
+                            </div>
+                        </div> 
+                    </div>
+                <div class="row-2">
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h12.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long trắng thượng hạng loại 2 - 100gr</a>
+                        </div>
+                        <div class="gia">
+                            250.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h13.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long lon thiếc vàng loại 2 - 150gr</a>
+                        </div>
+                        <div class="gia">
+                            1.000.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h14.jpeg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long Matcha loại 3 - 1kg</a>
+                        </div>
+                        <div class="gia">
+                            125.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h9.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Bột trà xanh Thái Nguyên</a>
+                        </div>
+                        <div class="gia">                    
+                            100.000đ
+                        </div>
+                    </div>
+                    <div class="box-5  bgcolor">
+                        <img src="./img/h8.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà Thiết Quan Âm loại 2 - 300gr</a>
+                        </div>
+                        <div class="gia">
+                            200.000đ
+                        </div>
+                    </div> 
+                </div>
+            </div>-->
+        </div>  
+        <div class="tieude">
+            <div class="box-tag">
+                TRÀ Ô LONG
+            </div>
+            <div class="right">
+                <a href="chitietsp.html">xem tất cả..</a>
+            </div>
+        </div>
+        <div id="loadsp3">
+            <!--<div class="row-2">
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h6.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 500gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h7.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 300gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h8.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Tân Cương Thái Nguyên 100gr</a>
+                            </div>
+                            <div class="gia">
+                                1.000.000đ
+                            </div>
+                        </div>
+                        <div class="box-5 mg20 bgcolor">
+                            <img src="./img/h9.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Bột trà xanh Thái Nguyên</a>
+                            </div>
+                            <div class="gia">
+                                300.000đ
+                            </div>
+                        </div>
+
+                        <div class="box-5  bgcolor">
+                            <img src="./img/h10.jpg" alt="">
+                            <div class="ten">
+                                <a href="chitietsp.html">Trà Thiết Quan Âm loại 2 - 300gr</a>
+                            </div>
+                            <div class="gia">
+                                200.000đ
+                            </div>
+                        </div> 
+                    </div>
+                <div class="row-2">
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h12.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long trắng thượng hạng loại 2 - 100gr</a>
+                        </div>
+                        <div class="gia">
+                            250.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h13.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long lon thiếc vàng loại 2 - 150gr</a>
+                        </div>
+                        <div class="gia">
+                            1.000.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h14.jpeg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà ô long Matcha loại 3 - 1kg</a>
+                        </div>
+                        <div class="gia">
+                            125.000đ
+                        </div>
+                    </div>
+                    <div class="box-5 mg20 bgcolor">
+                        <img src="./img/h9.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Bột trà xanh Thái Nguyên</a>
+                        </div>
+                        <div class="gia">                    
+                            100.000đ
+                        </div>
+                    </div>
+                    <div class="box-5  bgcolor">
+                        <img src="./img/h8.jpg" alt="">
+                        <div class="ten">
+                            <a href="chitietsp.html">Trà Thiết Quan Âm loại 2 - 300gr</a>
+                        </div>
+                        <div class="gia">
+                            200.000đ
+                        </div>
+                    </div> 
+                </div>
+            </div>-->
+        </div>  
+    </main>
+    <footer>
+        <hr>
+        <div class="box-anh">
+            <img src="./img/h15.jpg" alt="">
+        </div>
+        <div class="box-footer mg20">
+            <img src="./img/h1.png" alt="">
+            <h3>Cửa hàng trà sạch</h3>
+            <p>Hải Trà đã chính thức được thành lập. Bằng sự nỗ lực, nhiệt huyết và đam mê cháy bỏng với trà Việt, chúng tôi đã tìm tòi, nghiên cứu và cho ra đời hệ thống bán trà “sạch” đúng nghĩa.</p>
+            Mọi ý kiến đóng góp xin gửi về hòm thư: sales_online@topweb.com.vn
+        </div>
+        <div class="box-footer mg20">
+            <img src="./img/h16.jpg" alt="">
+            <p>Chẳng phải đợi lâu, chúng tôi ship hàng mọi miền tổ quốc với phí ship ưu đãi nhất!</p>
+            <ul>
+                <li><span>Địa chỉ:</span> 528/5/112 Điện Biên Phủ, P.11, Q.10, TP.HCM</li> <br>
+                <li><span>Hotline:</span> 1900-0062</li> <br>
+                <li><span>Fanpage:</span> <a href="chitietsp.html">Trà Thái Nguyên</a></li> <br>
+                <li><span>Email:</span> sales_online@topweb.com.vn</li>
+            </ul>
+        </div>
+        <div class="box-footer">
+            <h3>Bản đồ đường đi tới Shop</h3>
+            <div class="bando">
+                <img src="./img/h17.jpg" alt="">
+            </div>
+        </div>
+        <div class="end">
+            <div class="box-chu">
+                <p>Copyright 2024 © Thiết kế website Hà Nội bởi Topweb.com.vn</p>
+                <span>Hotline: 1911.8888</span>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="./js/products.js"></script>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
+

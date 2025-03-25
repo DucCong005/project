@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/dangnhap.css">
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form" onsubmit="return checkSignupForm(event)">
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <label for="newUsername">Username</label>
+                <input type="text" id="newUsername" name="newUsername" placeholder="Enter your new username">
+            </div>
+            <div class="input-group">
+                <label for="newPassword">Password</label>
+                <input type="password" id="newPassword" name="newPassword" placeholder="Enter your new password">
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+            <p class="signup-link">Already have an account? <a href="dangnhap.html">Login</a></p>
+        </form>
+    </div>
+    <script src="js/dangky.js"></script>
+</body>
+</html>

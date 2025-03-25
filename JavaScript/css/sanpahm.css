@@ -1,0 +1,285 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 1230px;
+    min-height: 2000px;
+    margin: 0 auto;
+}
+/* -------------------------------header------------------------------------------ */
+header{
+    width: 100%;
+    min-height: 80px;
+    background-color: white;
+}
+header img{
+    width: 15%;
+    height: 60px;
+    margin-left: 50px;
+    padding: 20px;
+}
+/*---------------------------------nav----------------------------------------- */
+nav{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(1, 98, 1);
+}
+nav .box-a{
+    color: white;
+    float: left;
+    line-height: 50px;
+    margin-left: 50px;
+    padding: 0 80px 0 40px;
+    background-color: rgb(50, 189, 22);
+}
+/* -----------------------------------menu ngang, con------------------------------------ */
+/* chuyển li thành 1 hàng ngang */
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+/* định nghĩa cho liên kết */
+.menu>ul>li a{
+    display: block;
+}
+/* định nghĩa cho thanh menu ngang */
+.menu>ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: green;
+    text-align: justify;
+}
+/* định nghĩa cho tag a */
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    line-height: 50px;
+    color: white;
+    font-size: 17px;
+    padding: 0 8px;
+}
+/* hover */
+.menu>ul>li>a:hover{
+    color: black;
+}
+/* định nghĩa menu con (định vị tuyệt đối và ẩn)*/
+.menu ul ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+/* định nghĩa liên kết của menu con */
+.menu ul ul a{
+    display: block;
+}
+/* định nghĩa css cho menu con khi đưa chuột 
+lên li chứa nó (hiển thị menu con)
+ */
+.menu>ul>li:hover>ul{
+    display: block;
+}
+/* Hoàn thiện menu con */
+.menu ul ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    text-align: left;
+}
+/* Bổ sung CSS vào .menu ul ul a */
+.menu ul ul a{
+    line-height: 40px;
+    color: green;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 15px;
+    padding: 0 10px;
+}
+/* định nghĩa liên kết menu con khi có chuột */
+.menu ul ul a:hover{
+    background-color: green;
+    color: black;
+}
+.menu span{
+    margin-right: 55px;
+    line-height:50px;
+    color: white;
+    float: right;
+}
+/* ----------------------------------------main------------------------------- */
+main{
+    width: 100%;
+    min-height: 2400px;
+    margin: 0 auto;
+    clear: both;
+    background-color: whitesmoke;
+}
+.sp{
+    width: 80%;
+    min-height: 800px;
+    margin-left: 20%;
+    margin-top: 40px;   
+}
+.mg20{
+    margin-right: 20px;
+}
+.row{
+    width: 100%;
+    float: left;
+    padding-bottom: 60px;
+}
+.box3{
+    width: calc(calc(100% - 50px)/3);
+    min-height: 100px;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.box3>img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 15px 15px;
+}
+.box3 span{
+    color: green;
+    font-size: 20px;
+}
+.row-2{
+    width: 100%;
+    float: left;
+    padding: 10px 0 0 10px;
+    margin-bottom: 10px;
+}
+.box-5{
+    width: calc(calc(100% - 100px)/5);
+    min-height: 300px;
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+}
+.box-5:hover{
+    box-shadow: 0 0 1px 1px green; 
+}
+.box-5 img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.ten{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+}
+a:hover{
+    color: green;
+}
+.gia{
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.cuahang{
+    width: 100%;
+    line-height: 40px;
+    background-color: white;
+    padding-left: 50px;
+    margin: 0;
+}
+/* -----------------------------menu---------------------- */
+.danhmuc{
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    font-weight: bold;
+}
+.box-menu{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    width: 220px;
+    padding: 0;
+    margin: 5px;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.box-menu a{
+    display: block;
+    border-bottom: 1px solid gray;
+    color: gray;
+    text-decoration: none;
+    padding: 10px 5px 10px 10px;
+}
+.box-menu a:hover{
+    color: green;
+    font-weight: bold;
+}
+h4{
+    text-align: right;
+    margin-right: 50px;
+    font-size: large
+} 
+/* ---------------------------------------------footer----------------------------------- */
+footer{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    clear: both;
+}
+.box-footer{
+    width: calc(calc(90% - 60px)/3);
+    min-height: 400px;
+    float: left;
+    margin-left: 35px;
+}
+.box-footer img{
+    width: 40%;
+    height: 60px;
+    padding-top: 10px;
+}
+.box-footer h3{
+    padding-top: 10px;
+}
+.box-footer span{
+    font-weight: bold;
+}
+.bando img{
+    width: 100%;
+    height: 250px;
+}
+.end{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32, 32, 32);
+    clear: both;
+}
+.box-chu p{
+    float: left;
+    color: gray;
+    margin-left: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.box-chu span{
+    color: gray;
+    float: right;
+    line-height: 60px;
+    font-size: 12px;
+    margin-right: 40px;
+}
+.mg20{
+    margin-right: 20px;
+}
