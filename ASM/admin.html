@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản Lý Sản Phẩm</title>
+</head>
+<style>
+    body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #34495e;
+  font-size: 1.5rem;
+}
+
+.form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.form button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #2980b9;
+}
+
+.cancel-button {
+  background-color: #e74c3c;
+}
+
+.cancel-button:hover {
+  background-color: #c0392b;
+}
+
+.action-button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #219150;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+}
+
+table td img {
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+table button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+table button:nth-child(1) {
+  background-color: #fedc55;
+  color: #fff;
+}
+
+table button:nth-child(1):hover {
+  background-color: #d4ac0d;
+}
+
+table button:nth-child(2) {
+  background-color: #eb8080;
+  color: #fff;
+}
+
+table button:nth-child(2):hover {
+  background-color: #c0392b;
+}
+
+/* Lớp phủ mờ khi hiển thị form */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none;
+  animation: fadeInOverlay 0.3s ease-in-out;
+}
+
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Quản Lý Sản Phẩm</h1>
+    
+        <!-- Nút hiển thị form thêm sản phẩm -->
+        <button id="showAddFormButton" class="action-button">Thêm sản phẩm</button>
+    
+        <!-- Form thêm sản phẩm -->
+        <form id="productForm" class="form" style="display: none;">
+          <h2>Thêm sản phẩm</h2>
+          <input type="text" id="name" placeholder="Tên sản phẩm" required>
+          <input type="number" id="price" placeholder="Giá sản phẩm" required>
+          <input type="text" id="img" placeholder="Hình ảnh (URL)" required>
+          <textarea id="description" placeholder="Mô tả sản phẩm" required></textarea>
+          <input type="number" id="hot" placeholder="Hot (0 hoặc 1)" required>
+          <input type="number" id="idcate" placeholder="ID Danh Mục" required>
+          <button type="submit" class="action-button">Thêm sản phẩm</button>
+          <button type="button" id="cancelAddFormButton" class="cancel-button">Hủy</button>
+        </form>
+    
+        <!-- Bảng danh sách sản phẩm -->
+        <table>
+          <thead>
+            <tr>
+              <th>Hình ảnh</th>
+              <th>Tên</th>
+              <th>Giá</th>
+              <th>Hot</th>
+              <th>Danh mục</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody id="productTableBody"></tbody>
+        </table>
+    
+        <!-- Form chỉnh sửa sản phẩm -->
+        <form id="editProductForm" class="form" style="display: none;">
+          <h2>Chỉnh sửa sản phẩm</h2>
+          <input type="text" id="editProductName" placeholder="Tên sản phẩm" required>
+          <input type="number" id="editProductPrice" placeholder="Giá sản phẩm" required>
+          <input type="text" id="editProductImg" placeholder="Hình ảnh (URL)" required>
+          <textarea id="editProductDescription" placeholder="Mô tả sản phẩm" required></textarea>
+          <input type="number" id="editProductHot" placeholder="Hot (0 hoặc 1)" required>
+          <input type="number" id="editProductIdcate" placeholder="ID Danh Mục" required>
+          <button type="submit" class="action-button">Cập nhật sản phẩm</button>
+          <button type="button" id="cancelEditFormButton" class="cancel-button">Hủy</button>
+        </form>
+      </div>
+    
+
+  <script type="module" src="dist/admin.js"></script>
+</body>
+</html>

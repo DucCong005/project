@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Leather Handbag",
+      "id_cate": 1,
+      "price": 89.99,
+      "description": "Elegant leather handbag perfect for any occasion.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/ZxMlNQl.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Casual Tote Bag",
+      "id_cate": 1,
+      "price": 45.99,
+      "description": "Spacious tote bag for daily use.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/36Q6VKl.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mini Crossbody Bag",
+      "id_cate": 1,
+      "price": 29.99,
+      "description": "Compact crossbody bag for essentials.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/t5D6vjw.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Elegant Clutch",
+      "id_cate": 1,
+      "price": 39.99,
+      "description": "Stylish clutch for evening events.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/AHdP1c7.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Travel Backpack",
+      "id_cate": 1,
+      "price": 65.99,
+      "description": "Durable backpack for travel and adventure.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/YyRnA62.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Canvas Bag",
+      "id_cate": 1,
+      "price": 20.99,
+      "description": "Eco-friendly canvas bag for shopping.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/GvFbD7R.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Office Briefcase",
+      "id_cate": 1,
+      "price": 120.99,
+      "description": "Professional briefcase for office use.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/dYKMHdX.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Beach Bag",
+      "id_cate": 1,
+      "price": 15.99,
+      "description": "Lightweight bag perfect for beach days.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/h6BfXWG.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Luxury Handbag",
+      "id_cate": 1,
+      "price": 299.99,
+      "description": "Premium handbag for luxurious occasions.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/s8BjRkP.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Everyday Messenger Bag",
+      "id_cate": 1,
+      "price": 55.99,
+      "description": "Functional messenger bag for daily commute.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/66Mi1Ck.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Running Shoes",
+      "id_cate": 2,
+      "price": 79.99,
+      "description": "Comfortable running shoes for sports and fitness.",
+      "size": "38, 39, 40, 41, 42",
+      "hot": 1,
+      "img": "https://i.imgur.com/m77YI4u.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Formal Black Shoes",
+      "id_cate": 2,
+      "price": 99.99,
+      "description": "Elegant black shoes for formal occasions.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "https://i.imgur.com/ZjYd4sH.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Casual Sneakers",
+      "id_cate": 2,
+      "price": 49.99,
+      "description": "Trendy sneakers for everyday use.",
+      "size": "39, 40, 41, 42",
+      "hot": 0,
+      "img": "https://i.imgur.com/w7ShdPq.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hiking Boots",
+      "id_cate": 2,
+      "price": 129.99,
+      "description": "Durable boots for outdoor activities.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "https://i.imgur.com/Y38GdQs.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Slip-On Shoes",
+      "id_cate": 2,
+      "price": 39.99,
+      "description": "Convenient slip-on shoes for quick outings.",
+      "size": "38, 39, 40, 41",
+      "hot": 0,
+      "img": "https://i.imgur.com/PZC8Zy6.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Waterproof Boots",
+      "id_cate": 2,
+      "price": 109.99,
+      "description": "Reliable waterproof boots for rainy days.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "https://i.imgur.com/TV7YUdJ.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Chelsea Boots",
+      "id_cate": 2,
+      "price": 89.99,
+      "description": "Stylish Chelsea boots for casual wear.",
+      "size": "39, 40, 41, 42",
+      "hot": 0,
+      "img": "https://i.imgur.com/92V5U7d.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Sports Sandals",
+      "id_cate": 2,
+      "price": 49.99,
+      "description": "Comfortable sports sandals for summer.",
+      "size": "38, 39, 40, 41",
+      "hot": 1,
+      "img": "https://i.imgur.com/FxQJjXr.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Winter Boots",
+      "id_cate": 2,
+      "price": 139.99,
+      "description": "Warm boots for cold weather.",
+      "size": "40, 41, 42, 43",
+      "hot": 0,
+      "img": "https://i.imgur.com/CzQw8CS.jpg"
+    },
+    {
+      "id": 20,
+      "name": "High-Top Sneakers",
+      "id_cate": 2,
+      "price": 59.99,
+      "description": "Trendy high-top sneakers for a stylish look.",
+      "size": "39, 40, 41, 42",
+      "hot": 1,
+      "img": "https://i.imgur.com/umYf3Kr.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Winter Jacket",
+      "id_cate": 3,
+      "price": 149.99,
+      "description": "Warm and stylish jacket for winter weather.",
+      "size": "M, L, XL",
+      "hot": 1,
+      "img": "https://i.imgur.com/PnzwLCm.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Leather Wallet",
+      "id_cate": 3,
+      "price": 49.99,
+      "description": "Premium leather wallet for daily use.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/WGFtUIt.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Cotton Scarf",
+      "id_cate": 3,
+      "price": 15.99,
+      "description": "Soft cotton scarf for chilly days.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/BojsjN0.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Sunglasses",
+      "id_cate": 3,
+      "price": 29.99,
+      "description": "Trendy sunglasses for sunny days.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/3pp9eqI.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Leather Gloves",
+      "id_cate": 3,
+      "price": 39.99,
+      "description": "Stylish leather gloves for winter.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/Mhb9LgX.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Wool Beanie",
+      "id_cate": 3,
+      "price": 19.99,
+      "description": "Cozy wool beanie for the cold weather.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/5t3cO8L.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Canvas Sneakers",
+      "id_cate": 3,
+      "price": 45.99,
+      "description": "Casual canvas sneakers for everyday comfort.",
+      "size": "39, 40, 41, 42",
+      "hot": 1,
+      "img": "https://i.imgur.com/t9YmfB1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Sports Watch",
+      "id_cate": 3,
+      "price": 69.99,
+      "description": "Durable sports watch for active individuals.",
+      "size": "One size",
+      "hot": 0,
+      "img": "https://i.imgur.com/T8xGG4c.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Running Shorts",
+      "id_cate": 3,
+      "price": 29.99,
+      "description": "Lightweight running shorts for comfort.",
+      "size": "M, L, XL",
+      "hot": 0,
+      "img": "https://i.imgur.com/CvvZJwN.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Gym Bag",
+      "id_cate": 3,
+      "price": 45.99,
+      "description": "Spacious gym bag for workouts.",
+      "size": "One size",
+      "hot": 1,
+      "img": "https://i.imgur.com/zcqerhf.jpg"
+    }
+  ]
+}

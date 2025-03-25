@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông Tin Người Dùng</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .user-info, .user-orders {
+      max-width: 800px;
+      margin: auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    .user-info h1, .user-orders h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    .user-info p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .back-btn:hover {
+      background-color: #0056b3;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    .empty-orders {
+      text-align: center;
+      color: #888;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-info">
+    <h1>Thông Tin Người Dùng</h1>
+    <p><strong>Tên người dùng:</strong> <span id="user-name"></span></p>
+    <p><strong>Email:</strong> <span id="user-email"></span></p>
+    <p><strong>Vai trò:</strong> <span id="user-role"></span></p>
+    <a href="index.html" class="back-btn">Quay lại</a>
+  </div>
+
+  <div class="user-orders">
+    <h2>Danh Sách Đơn Hàng</h2>
+    <table id="orders-table">
+      <thead>
+        <tr>
+          <th>Mã Đơn Hàng</th>
+          <th>Sản Phẩm</th>
+          <th>Số Lượng</th>
+          <th>Giá</th>
+          <th>Tổng</th>
+        </tr>
+      </thead>
+      <tbody id="orders-body">
+        <!-- Dữ liệu sẽ được thêm qua JavaScript -->
+      </tbody>
+    </table>
+    <p id="empty-orders" class="empty-orders" style="display: none;">Không có đơn hàng nào</p>
+  </div>
+  <script type="module" src="dist/home.js"></script>
+</body>
+</html>

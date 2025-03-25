@@ -1,0 +1,451 @@
+{
+  "products": [
+    {
+      "name": "Leather Handbag",
+      "price": 90,
+      "img": "bag1.jpg",
+      "description": "Elegant leather handbag perfect for any occasion.",
+      "hot": 1,
+      "idcate": 1,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Casual Tote Bag",
+      "idcate": 1,
+      "price": 45.99,
+      "description": "Spacious tote bag for daily use.",
+      "hot": 0,
+      "img": "bag2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Mini Crossbody Bag",
+      "idcate": 1,
+      "price": 29.99,
+      "description": "Compact crossbody bag for essentials.",
+      "hot": 1,
+      "img": "bag3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Elegant Clutch",
+      "idcate": 1,
+      "price": 39.99,
+      "description": "Stylish clutch for evening events.",
+      "hot": 0,
+      "img": "bag4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Travel Backpack",
+      "idcate": 1,
+      "price": 65.99,
+      "description": "Durable backpack for travel and adventure.",
+      "hot": 1,
+      "img": "bag5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Canvas Bag",
+      "idcate": 1,
+      "price": 20.99,
+      "description": "Eco-friendly canvas bag for shopping.",
+      "hot": 0,
+      "img": "bag6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Office Briefcase",
+      "idcate": 1,
+      "price": 120.99,
+      "description": "Professional briefcase for office use.",
+      "hot": 1,
+      "img": "bag7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Beach Bag",
+      "idcate": 1,
+      "price": 15.99,
+      "description": "Lightweight bag perfect for beach days.",
+      "hot": 0,
+      "img": "bag8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Luxury Handbag",
+      "idcate": 1,
+      "price": 299.99,
+      "description": "Premium handbag for luxurious occasions.",
+      "hot": 1,
+      "img": "bag9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Everyday Messenger Bag",
+      "idcate": 1,
+      "price": 55.99,
+      "description": "Functional messenger bag for daily commute.",
+      "hot": 0,
+      "img": "bag10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Running Shoes",
+      "idcate": 2,
+      "price": 79.99,
+      "description": "Comfortable running shoes for sports and fitness.",
+      "size": "38, 39, 40, 41, 42",
+      "hot": 1,
+      "img": "giay1.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Formal Black Shoes",
+      "idcate": 2,
+      "price": 99.99,
+      "description": "Elegant black shoes for formal occasions.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "giay2.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Casual Sneakers",
+      "idcate": 2,
+      "price": 49.99,
+      "description": "Trendy sneakers for everyday use.",
+      "size": "39, 40, 41, 42",
+      "hot": 0,
+      "img": "giay3.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Hiking Boots",
+      "idcate": 2,
+      "price": 129.99,
+      "description": "Durable boots for outdoor activities.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "giay4.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Slip-On Shoes",
+      "idcate": 2,
+      "price": 39.99,
+      "description": "Convenient slip-on shoes for quick outings.",
+      "size": "38, 39, 40, 41",
+      "hot": 0,
+      "img": "giay5.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Waterproof Boots",
+      "idcate": 2,
+      "price": 109.99,
+      "description": "Reliable waterproof boots for rainy days.",
+      "size": "40, 41, 42, 43",
+      "hot": 1,
+      "img": "giay6.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Chelsea Boots",
+      "idcate": 2,
+      "price": 89.99,
+      "description": "Stylish Chelsea boots for casual wear.",
+      "size": "39, 40, 41, 42",
+      "hot": 0,
+      "img": "giay7.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Sports Sandals",
+      "idcate": 2,
+      "price": 49.99,
+      "description": "Comfortable sports sandals for summer.",
+      "size": "38, 39, 40, 41",
+      "hot": 1,
+      "img": "giay8.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Winter Boots",
+      "idcate": 2,
+      "price": 139.99,
+      "description": "Warm boots for cold weather.",
+      "size": "40, 41, 42, 43",
+      "hot": 0,
+      "img": "giay9.jpg"
+    },
+    {
+      "id": "20",
+      "name": "High-Top Sneakers",
+      "idcate": 2,
+      "price": 59.99,
+      "description": "Trendy high-top sneakers for a stylish look.",
+      "size": "39, 40, 41, 42",
+      "hot": 1,
+      "img": "giay10.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Winter Jacket",
+      "idcate": 3,
+      "price": 149.99,
+      "description": "Warm and stylish jacket for winter weather.",
+      "size": "M, L, XL",
+      "hot": 1,
+      "img": "jk1.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Leather Wallet",
+      "idcate": 3,
+      "price": 49.99,
+      "description": "Premium leather wallet for daily use.",
+      "hot": 1,
+      "img": "jk2.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Cotton Scarf",
+      "idcate": 3,
+      "price": 15.99,
+      "description": "Soft cotton scarf for chilly days.",
+      "hot": 0,
+      "img": "jk3.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Sunglasses",
+      "idcate": 3,
+      "price": 29.99,
+      "description": "Trendy sunglasses for sunny days.",
+      "hot": 1,
+      "img": "jk4.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Leather Gloves",
+      "idcate": 3,
+      "price": 39.99,
+      "description": "Stylish leather gloves for winter.",
+      "hot": 1,
+      "img": "jk5.jpg"
+    },
+    {
+      "id": "26",
+      "name": "The North Face Nuptse Jacket",
+      "idcate": 3,
+      "price": 19.99,
+      "description": "Cozy wool beanie for the cold weather.",
+      "hot": 0,
+      "img": "jk6.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Patagonia Nano Puff Jacket",
+      "idcate": 3,
+      "price": 45.99,
+      "description": "Casual canvas sneakers for everyday comfort.",
+      "size": "39, 40, 41, 42",
+      "hot": 1,
+      "img": "jk7.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Columbia Bugaboo II Fleece Interchange Jacket",
+      "idcate": 3,
+      "price": 69.99,
+      "description": "Durable sports watch for active individuals.",
+      "hot": 0,
+      "img": "jk8.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Arc'teryx Beta AR Jacket",
+      "idcate": 3,
+      "price": 29.99,
+      "description": "Lightweight running shorts for comfort.",
+      "size": "M, L, XL",
+      "hot": 0,
+      "img": "jk9.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Canada Goose Expedition Parka",
+      "idcate": 3,
+      "price": 45.99,
+      "description": "Spacious gym bag for workouts.",
+      "hot": 1,
+      "img": "jk10.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "bags"
+    },
+    {
+      "id": "2",
+      "name": "sneakers"
+    },
+    {
+      "id": "3",
+      "name": "Jacket"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b3fe",
+      "customer": {
+        "name": "Trần Đức Công",
+        "address": "2276/6, quốc lộ 1A",
+        "phone": "0987291803",
+        "email": "cong1@gmail.com"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Leather Handbag",
+          "price": 90,
+          "img": "bag1.jpg",
+          "description": "Elegant leather handbag perfect for any occasion.",
+          "hot": 1,
+          "idcate": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "49a9",
+      "customer": {
+        "name": "Trần Đức Công",
+        "address": "2276/6, quốc lộ 1A",
+        "phone": "0987291803",
+        "email": "cong1@gmail.com"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Leather Handbag",
+          "price": 90,
+          "img": "bag1.jpg",
+          "description": "Elegant leather handbag perfect for any occasion.",
+          "hot": 1,
+          "idcate": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "949f",
+      "customer": {
+        "name": "Trần Đức Công",
+        "address": "2276/6, quốc lộ 1A",
+        "phone": "12321312",
+        "email": "cong1@gmail.com"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Elegant Clutch",
+          "price": 39.99,
+          "img": "bag4.jpg",
+          "description": "Stylish clutch for evening events.",
+          "hot": 0,
+          "idcate": 1,
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Travel Backpack",
+          "price": 65.99,
+          "img": "bag5.jpg",
+          "description": "Durable backpack for travel and adventure.",
+          "hot": 1,
+          "idcate": 1,
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Canvas Bag",
+          "price": 20.99,
+          "img": "bag6.jpg",
+          "description": "Eco-friendly canvas bag for shopping.",
+          "hot": 0,
+          "idcate": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1b84",
+      "customer": {
+        "name": "Trần Đức Công",
+        "address": "2276/6, quốc lộ 1A",
+        "phone": "0987291803",
+        "email": "cong@gmail.com"
+      },
+      "items": [
+        {
+          "id": "22",
+          "name": "Leather Wallet",
+          "price": 49.99,
+          "img": "jk2.jpg",
+          "description": "Premium leather wallet for daily use.",
+          "hot": 1,
+          "idcate": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "791c",
+      "customer": {
+        "name": "Trần Đức Công",
+        "address": "2276/6, quốc lộ 1A",
+        "phone": "0987291803",
+        "email": "cong1@gmail.com"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Casual Tote Bag",
+          "price": 45.99,
+          "img": "bag2.jpg",
+          "description": "Spacious tote bag for daily use.",
+          "hot": 0,
+          "idcate": 1,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "15c7",
+      "username": "cong",
+      "email": "cong1@gmail.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "54e0",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "070c",
+      "username": "dc",
+      "email": "cong@gmail.com",
+      "password": "123",
+      "role": "user"
+    }
+  ]
+}
