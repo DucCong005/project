@@ -1,0 +1,67 @@
+{
+  "hash": "8c2ad759",
+  "configHash": "0c34be06",
+  "lockfileHash": "00817c5b",
+  "browserHash": "4b2eb886",
+  "optimized": {
+    "@angular-slider/ngx-slider": {
+      "src": "../../../../../../node_modules/@angular-slider/ngx-slider/fesm2022/angular-slider-ngx-slider.mjs",
+      "file": "@angular-slider_ngx-slider.js",
+      "fileHash": "c1ca4c29",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "e6ea1f5a",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "9f2c3f40",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "3cadf549",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "b641f34e",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "0cb70d30",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "8edcb424",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-OEIEZE5T": {
+      "file": "chunk-OEIEZE5T.js"
+    },
+    "chunk-UAFLPB54": {
+      "file": "chunk-UAFLPB54.js"
+    },
+    "chunk-YAFGXW2B": {
+      "file": "chunk-YAFGXW2B.js"
+    },
+    "chunk-RCFKZ3EC": {
+      "file": "chunk-RCFKZ3EC.js"
+    },
+    "chunk-NE7MJXHA": {
+      "file": "chunk-NE7MJXHA.js"
+    }
+  }
+}

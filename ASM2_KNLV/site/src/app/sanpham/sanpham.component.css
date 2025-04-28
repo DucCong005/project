@@ -1,0 +1,201 @@
+.products-page {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filter-section {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.apply-filter-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e17055;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.apply-filter-btn:hover {
+    background-color: #d63031;
+}
+
+.recipes-section {
+    width: 70%;
+}
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    display: flex; /* Sử dụng flex để điều chỉnh chiều cao */
+    flex-direction: column; /* Các phần tử xếp theo cột */
+    min-height: 350px; /* Đặt chiều cao tối thiểu để đảm bảo đồng đều */
+}
+
+.recipe-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.recipe-details {
+    padding: 15px;
+    flex: 1; /* Phần details sẽ mở rộng để lấp đầy không gian còn lại */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Đẩy nút xuống dưới cùng */
+}
+
+.recipe-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.recipe-time {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.view-recipe-btn {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    outline: none;
+    margin-top: auto; /* Đảm bảo nút luôn ở dưới cùng */
+}
+
+.view-recipe-btn > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.view-recipe-btn:hover {
+    background-color: #d63031;
+}
+
+/* Responsive cho điện thoại (max-width: 480px) */
+@media (max-width: 480px) {
+    .products-page {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .filter-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .recipes-section {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .recipes-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .recipe-card {
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 8px;
+        width: 100%;
+        min-height: 280px; /* Giảm chiều cao tối thiểu cho điện thoại */
+    }
+
+    .recipe-image {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .recipe-details {
+        padding: 8px;
+        flex: 1; /* Đảm bảo mở rộng trên điện thoại */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .recipe-name {
+        font-size: 0.95em;
+        margin-bottom: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .recipe-time {
+        font-size: 0.8em;
+        margin-bottom: 6px;
+    }
+
+    .view-recipe-btn {
+        font-size: 0.85em;
+        padding: 6px 8px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: auto; /* Nút vẫn ở dưới cùng trên điện thoại */
+    }
+
+    .button-return {
+        margin: 12px 0;
+        padding-left: 8px;
+    }
+
+    .return-link {
+        padding: 6px 15px;
+        font-size: 0.85em;
+        border-radius: 4px;
+    }
+}
